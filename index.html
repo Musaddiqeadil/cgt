@@ -1,43 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chain-Tract</title>
-    <link rel="stylesheet" href="./assets/CSS/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
     <nav>
-        <div class="nav-container">
-            <div class="link-btn-container">
-                <a class="logo" href="/index.html">
-                    C-Tract
-                </a>
-                <div class="nav-links">
-                    <ul>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Our work</a></li>
-                        <li><a href="#">About us</a></li>
-                    </ul>
-                </div>
+      <div class="nav-container">
+        <div class="link-btn-container">
+          <a class="logo" href="/index.html"> C-Tract </a>
+
+          <div class="nav-right">
+            <div class="nav-links">
+              <ul>
+                <li><div class="dropdown">
+                    Products  
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="dropdown-out">
+                        <div class="dropdown-con">
+                            <div class="dc-item">
+                                <img src="https://cdn.prod.website-files.com/66c89c41b01a092340805473/66d9f65c74fa30e5e0a8912c_Talent.svg" alt="New">
+                                <div class="dc-item-c">
+                                    <h2>Exchange website</h2>
+                                    <p>Lorem, ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="dc-item">
+                                <img src="https://cdn.prod.website-files.com/66c89c41b01a092340805473/66d9f65c74fa30e5e0a8912c_Talent.svg" alt="New">
+                                <div class="dc-item-c">
+                                    <h2>Blockchain Application</h2>
+                                    <p>Lorem, ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                            <div class="dc-item">
+                                <img src="https://cdn.prod.website-files.com/66c89c41b01a092340805473/66d9f65c74fa30e5e0a8912c_Talent.svg" alt="New">
+                                <div class="dc-item-c">
+                                    <h2>Crypto Token</h2>
+                                    <p>Lorem, ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div></li>
+                <li><a href="#">Our work</a></li>
+                <li><a href="#">About us</a></li>
+              </ul>
             </div>
-    
-            <div class="hero-btn">
-                Let's talk
-            </div>
+            <div class="hero-btn">Let's talk</div>
+          </div>
+
+          <div class="toggle active">
+            <div class="toggle-1 tl"></div>
+            <div class="toggle-2 tl"></div>
+            <div class="toggle-3 tl"></div>
+          </div>
+       
         </div>
+      </div>
     </nav>
-   
 
     <!-- home pagr -->
 
     <section class="home">
-        
+      <h2>Apple</h2>
     </section>
     <!-- home pagr -->
-    
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
