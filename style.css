@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 30px;
+    background-color: black;
+    width: 100%;
+    border-bottom: .1px solid white;
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: bolder;
+    padding-left: 45px;
+    color: lightblue;
+}
+
+.link-btn-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 20px;
+    
+    
+}
+.nav-links ul li {
+    margin-right: 25px;
+    position: relative;
+  }
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    display: block;
+}
+
+
+
+.nav-container .hero-btn{
+    margin-right: 80px;
+    background-color: #1f56e2;
+    padding: 14px 26px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.nav-container .hero-btn:hover{
+    background-color: rgb(71, 67, 67);
+    color: white;
+
+}
+
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 5px 10px;
+        width: 100%;
+        
+    }
+    
+    
+    .logo{
+        font-size: 15px;
+        font-weight: bolder;
+        padding-left: 10px;
+        color: lightblue;
+    }
+    
+    .link-btn-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .nav-links ul{
+        display: flex;
+        list-style-type: none;
+        margin-left: 20px;
+        
+        
+    }
+    .nav-links ul li {
+        margin-right: 25px;
+        position: relative;
+      }
+    
+    .nav-links ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        display: block;
+    }
+    
+    
+    
+    .nav-container .hero-btn{
+        
+        background-color: #1f56e2;
+        padding: 5px 10px;
+        border-radius: 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+    }
+  
+   
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
