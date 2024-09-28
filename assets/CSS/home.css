@@ -1,0 +1,45 @@
+.home{
+    padding: 0px 0px 20px;
+    width: 100%;
+
+}
+
+.hero{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(135deg, #000000 90%, #12598f 95%, #58a3e0 100%);
+     */
+    position: relative;
+
+    /* background-color: wheat; */
+
+}
+
+    
+
+.hero-inside{
+    max-width: 1125px;
+    margin: auto;
+    text-align: center;
+    font-family: var(--font1)
+
+}
+
+.hero-inside h2{
+    font-size: 3rem;
+    max-width: 800px;
+    margin: auto;
+    /* letter-spacing: 3px; */
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-inside p{
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: auto;
+    /* letter-spacing: 2px; */
+    color: white;
+}

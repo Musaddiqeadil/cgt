@@ -1,0 +1,755 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font1);
+}
+
+.hero {
+    height: 100vh;
+    background-color: #050505;
+}
+
+.box-container {
+    font-family: var(--font1);
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    background-color: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+
+
+.first-box {
+    background-color: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-box p {
+
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 5rem;
+
+}
+
+.first-box p span {
+
+    background: linear-gradient(90deg, #00f260, #0575e6);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.second-box {
+    background-color: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-box img {
+    
+    width: 100%;
+}
+
+/* team */
+
+.team{
+    background-color: #050505;
+}
+
+
+.team-heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.team-heading h2{
+    font-size: 5rem;
+    text-align: center;
+    color: #0575e6;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin-bottom: 120px;
+    margin-top: 60px;
+    
+}
+
+.profile-card {
+    text-align: center;
+    position: relative;
+    
+  }
+  
+  .profile-image img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);
+    
+  }
+  
+  .profile-image img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+  
+  .profile-info {
+    display: none; /* Hidden by default */
+    background: rgb(202,205,216);
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, #383e8000, #12598f7c);
+    min-height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  
+  .profile-card:hover .profile-info {
+    display: block; /* Show when hovering over the profile card */
+  }
+  
+  .profile-info h3 {
+    margin: 5px 0;
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+
+  }
+  
+  .profile-info p {
+    color: #777;
+    font-size: 1.2rem;
+  }
+
+
+  .profile-info {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .profile-card:hover .profile-info {
+    display: block;
+    opacity: 2;
+  }
+
+  /* footer */
+
+
+  .footer{
+    background-color: #0575e6;
+    padding-bottom: 200px;
+    
+    
+    
+  }
+  .footer .footer-heading{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 5rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    padding-top: 30px;
+  }
+
+
+  .footer-box-container{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+     
+  }
+
+  
+  .box1{
+    width: 200px;
+  }
+  .box1 .footer-logo{
+    color: white;
+    font-size: 1.2rem;
+    
+
+  }
+
+  .box1 .text{
+
+    font-size: 1rem;
+    color: black;
+    padding: 20px 0;
+    
+
+  }
+
+ 
+  .box2 .products{
+    color: white;
+    font-size: 1.2rem;
+    
+  }
+  .box2 .text{
+    font-size: 1rem;
+    color: black;
+    padding: 20px 0;
+    
+
+  }
+
+  
+
+  .box3 .For-engineers{
+    color: white;
+    font-size: 1.2rem;
+
+  }
+
+  .box3 .text{
+
+    font-size: 1rem;
+    color: black;
+    padding: 20px 0;
+
+  }
+
+  .box4 .Company{
+    color: white;
+    font-size: 1.2rem;
+
+  }
+
+  .box4 .text{
+    font-size: 1rem;
+    color: black;
+    padding: 20px 0;
+
+  }
+
+  .box5 .Others{
+    color: white;
+    font-size: 1.2rem;
+
+  }
+
+  .box5 .text{
+    font-size: 1rem;
+    color: black;
+    padding: 20px 0;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quarries */
+
+
+@media(max-width:1100px){
+
+  /* hero section */
+
+  .first-box p {
+
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 3.3rem;
+    line-height: 4rem;
+
+}
+.second-box img {
+    
+  width: 100%;
+}
+
+/* team section */
+
+
+.profile-image img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);
+  
+}
+
+.profile-info h3 {
+  margin: 5px 0;
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+
+}
+
+.profile-info p {
+  color: #777;
+  font-size: 1rem;
+}
+
+/* footer */
+
+
+.footer-box-container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+   
+}
+
+}
+
+
+@media(max-width:900px){
+
+  /* hero section */
+
+  
+
+  .box-container {
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    gap: 40px;
+    
+  }
+
+
+  .first-box {
+    width: 60%;
+
+}
+
+  .first-box p {
+
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+
+}
+.second-box img {
+    
+  width: 50%;
+}
+
+/* team section */
+
+
+.team-heading{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.team-heading h2{
+  font-size: 4.5rem;
+  text-align: center;
+  color: #0575e6;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+
+}
+
+.team-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 90px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  
+}
+
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+   
+}
+
+.profile-info {
+  display: none; /* Hidden by default */
+  background: rgb(202,205,216);
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #383e8000, #12598f7c);
+  min-height: 80px;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.profile-info h3 {
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+
+}
+
+.profile-info p {
+  color: #777;
+  font-size: .8rem;
+}
+
+
+/* footer */
+
+.footer{
+  background-color: #0575e6;
+  padding-bottom: 150px;
+  
+  
+  
+}
+.footer .footer-heading{
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  padding-top: 30px;
+}
+
+
+.footer-box-container{
+  
+  flex-direction: column;
+  align-items: center;
+   
+}
+
+.box1{
+  width: 110px;
+}
+.box1 .footer-logo{
+  color: white;
+  font-size: 1.2rem;
+  
+
+}
+
+.box1 .text{
+
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+  
+
+}
+
+
+.box2 .products{
+  color: white;
+  font-size: 1.2rem;
+  
+}
+.box2 .text{
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+  
+
+}
+
+
+
+.box3 .For-engineers{
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+.box3 .text{
+
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+
+}
+
+.box4 .Company{
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+.box4 .text{
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+
+}
+.box5{
+  width: 130px;
+}
+
+.box5 .Others{
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+.box5 .text{
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+
+}
+
+
+
+
+
+
+
+}
+@media(max-width:700px){
+
+  /* hero section */
+
+  
+
+  .box-container {
+    padding-top: 40px;
+    flex-direction: column-reverse;
+    gap: 40px;
+    
+  }
+
+
+  .first-box {
+    width: 70%;
+
+}
+
+  .first-box p {
+
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+}
+.second-box img {
+    
+  width: 70%;
+}
+
+/* team section */
+
+
+.team-heading{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.team-heading h2{
+  font-size: 3.6rem;
+  text-align: center;
+  color: #0575e6;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+
+}
+
+.team-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 60px;
+  
+  
+}
+
+
+.profile-image img {
+  width: 180px;
+  height: 180px;
+   
+}
+
+.profile-info {
+  display: none; /* Hidden by default */
+  background: rgb(202,205,216);
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #383e8000, #12598f7c);
+  
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.profile-info h3 {
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+
+}
+
+.profile-info p {
+  color: #777;
+  font-size: .8rem;
+}
+
+
+/* footer */
+
+.footer{
+  background-color: #0575e6;
+  padding-bottom: 150px;
+  
+  
+  
+}
+.footer .footer-heading{
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  padding-top: 30px;
+}
+
+
+.footer-box-container{
+  
+  flex-direction: column;
+  align-items: center;
+   
+}
+
+.box1{
+  width: 110px;
+}
+.box1 .footer-logo{
+  color: white;
+  font-size: 1.2rem;
+  
+
+}
+
+.box1 .text{
+
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+  
+
+}
+
+
+.box2 .products{
+  color: white;
+  font-size: 1.2rem;
+  
+}
+.box2 .text{
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+  
+
+}
+
+
+
+.box3 .For-engineers{
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+.box3 .text{
+
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+
+}
+
+.box4 .Company{
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+.box4 .text{
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+
+}
+.box5{
+  width: 130px;
+}
+
+.box5 .Others{
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+.box5 .text{
+  font-size: 1rem;
+  color: black;
+  padding: 20px 0;
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
