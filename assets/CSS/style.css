@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -9,8 +9,8 @@
 :root {
   --font1: "Poppins", sans-serif;
   --font2: "Montserrat", sans-serif;
-  --color1: #12598f;
-  --color2: #58a3e0;
+  --color1: #0d0630;
+  --color2: #1c0d69;
 }
 
 body {
@@ -50,7 +50,7 @@ body {
   display: flex;
   list-style-type: none;
   margin: 0px 50px;
-} 
+}
 .nav-links ul li {
   margin-right: 10px;
   font-family: var(--font1);
@@ -158,6 +158,25 @@ body {
 }
 
 .nav-container .hero-btn:hover {
+  background-color: var(--color1);
+  color: white;
+}
+
+.hero-btn-1 {
+  display: inline-block;
+  background-color: var(--color2);
+  padding: 8px 20px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+  transition: 0.4s;
+  cursor: pointer;
+  font-family: var(--font1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero-btn-1:hover {
   background-color: var(--color1);
   color: white;
 }
