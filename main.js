@@ -5,3 +5,5 @@ toggle.addEventListener('click', ()=>{
     toggle.classList.toggle("active")
     navRight.classList.toggle("active")
 })
+
+
