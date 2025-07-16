@@ -9,6 +9,9 @@
 body{
   font-family: var(--font1);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   --font1: "Poppins", sans-serif;
@@ -242,7 +245,9 @@ body {
   .nav-container {
     padding: 12px 20px;
     z-index: 9999;
+    width: 100%;
   }
+  
 
   .nav-right.active {
     position: absolute;
@@ -405,6 +410,8 @@ h1 {
     font-size: 2rem;
   }
 }
+
+
 
 
 /* Second */
@@ -883,6 +890,10 @@ h1 {
       width: 240px;
       height: 240px;
     }
+    .pichart img{
+
+  max-width: 300px;
+}
     
     .distribution-list {
       width: 240px;
